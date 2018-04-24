@@ -1,30 +1,19 @@
-# Magisk Module Template
-
-This `README.md` will be shown in Magisk Manager. Place any information / changelog / notes you like.
-
-**Please update `README.md` if you want to submit your module to the online repo!**
-
-Github has its own online markdown editor with a preview feature, you can use it to update your `README.md`! If you need more advanced syntax, check the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-For more information about modules and repos, please check the [official documentations](https://github.com/topjohnwu/Magisk/blob/master/docs/modules.md)
-
----
-# **Module Name**
+# **Move Certificates**
 ## Description
-Description here
-## Changelog
-Changelog here
-## Requirements
-- Requirement 1
-- Requirement *
-- Requirement n
-## Instructions
-Instructions here
-- Or other instructions here
-- Followed by more instructions
-1. Or a list of instructions
-2. With more instructions
-## Links
-[Module XDA Forum Thread](https://forum.xda-developers.com/apps/magisk/module-url-here "Module official XDA thread")
+Moves certificates from the user certificate store to the system store. Also removes the *Network may be monitored* warning.
 
-[Latest stable Magisk](http://www.tiny.cc/latestmagisk)
+## Changelog
+v1.1
+
+  * Added more info to README
+
+v1
+
+  * Initial release
+
+## Notes
+If for some reason you do not want all your certificates moved from the user store to the system store, you can specify which certificate to move in /common/post-fs-data.sh by replacing the * with the name of the certificate; i.e.,
+
+`mv -f /data/misc/user/0/cacerts-added/12abc345.0 $MODDIR/system/etc/security/cacerts`
+
+

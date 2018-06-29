@@ -1,7 +1,7 @@
 id=movecert
 name=Move Certificates
-version=v1.1
-versionCode=2
+version=v1.2
+versionCode=3
 author=yochananmarqos
 description=Moves certificates from the user certificate store to the system store. Removes the *Network may be monitored* warning.
 minMagisk=1500

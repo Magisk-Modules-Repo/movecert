@@ -10,5 +10,4 @@ MODDIR=${0%/*}
 
 # mv -f /data/misc/user/0/cacerts-added/12abc345.0 $MODDIR/system/etc/security/cacerts
 
-mkdir $MODDIR/system/etc/security/cacerts
 mv -f /data/misc/user/0/cacerts-added/* $MODDIR/system/etc/security/cacerts

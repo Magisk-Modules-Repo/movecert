@@ -3,6 +3,10 @@
 Moves certificates from the user certificate store to the system store. Also removes the *Network may be monitored* warning.
 
 ## Changelog
+v1.3
+
+* Create system store module directory instead of mkdir command
+
 v1.2
 
 * Create system store directory if it does not already exist

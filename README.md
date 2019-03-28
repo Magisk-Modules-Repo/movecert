@@ -3,6 +3,10 @@
 Moves certificates from the user certificate store to the system store. Also removes the *Network may be monitored* warning.
 
 ## Changelog
+v1.6
+
+* Updated to newest module installer template 
+
 v1.5
 
 * Updated module template to 17000

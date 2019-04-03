@@ -3,6 +3,11 @@
 Moves certificates from the user certificate store to the system store. Also removes the *Network may be monitored* warning.
 
 ## Changelog
+v1.7
+
+* Merged pull request: Prevent placeholder from being moved to system store
+* Merged pull request: System store certs should be owned by user and group root
+
 v1.6
 
 * Updated to newest module installer template 

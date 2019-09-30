@@ -3,6 +3,9 @@
 Moves certificates from the user certificate store to the system store. Also removes the *Network may be monitored* warning.
 
 ## Changelog
+v1.8
+* Merged pull request: Fix SELinux contexts
+
 v1.7
 
 * Merged pull request: Prevent placeholder from being moved to system store

@@ -14,4 +14,4 @@ MODDIR=${0%/*}
 
 mv -f /data/misc/user/0/cacerts-added/* $MODDIR/system/etc/security/cacerts
 chown 0:0 $MODDIR/system/etc/security/cacerts/*
-chcon u:object_r:system_file:s0 $MODDIR/system/etc/security/cacerts/*
+chcon u:object_r:system_security_cacerts_file:s0 $MODDIR/system/etc/security/cacerts/*

@@ -3,6 +3,10 @@
 Moves certificates from the user certificate store to the system store. Also removes the *Network may be monitored* warning.
 
 ## Changelog
+v1.9
+* Dynamically determine correct SELinux context for cert from device itself.
+* AdGuard users may need to reinstall their HTTPS filtering certificate.
+
 v1.8
 * Merged pull request: Fix SELinux contexts
 

@@ -2,6 +2,8 @@
 ## Description
 Moves certificates from the user certificate store to the system store. Also removes the *Network may be monitored* warning.
 
+If you use AdGuard, you probably want to use [adguardcert](https://github.com/AdguardTeam/adguardcert) instead.
+
 ## Changelog
 v1.9
 * Dynamically determine correct SELinux context for cert from device itself.

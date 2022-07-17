@@ -5,6 +5,10 @@ Moves certificates from the user certificate store to the system store. Also rem
 If you use AdGuard, you probably want to use [adguardcert](https://github.com/AdguardTeam/adguardcert) instead.
 
 ## Changelog
+v1.9.11a
+* Fixed install issue in Magisk, credit to [azio7](https://github.com/Magisk-Modules-Repo/movecert/pull/14)
+* Fixed Chrome Certificate Transparency problem, by copying rather than moving the certificate from the User store
+
 v1.9
 * Dynamically determine correct SELinux context for cert from device itself.
 * AdGuard users may need to reinstall their HTTPS filtering certificate.

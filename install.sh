@@ -122,10 +122,10 @@ REPLACE="
 # Set what you want to display when installing your module
 
 print_modname() {
-  ui_print "*******************************"
+  ui_print "****************************************************"
   ui_print "        Move Certificates      "
-  ui_print "     by yochananmarqos @XDA    "
-  ui_print "*******************************"
+  ui_print "     by yochananmarqos (edited by Andy Acer) @XDA   "
+  ui_print "****************************************************"
 }
 
 # Copy/extract your module files into $MODPATH in on_install.

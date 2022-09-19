@@ -1,6 +1,6 @@
 id=movecert
 name=Move Certificates
-version=v2.0
+version=v2.0.1
 versionCode=1
-author=yochananmarqos
-description=Moves certificates from the user certificate store to the system store. Removes the *Network may be monitored* warning.
+author=yochananmarqos (edited by Andy Acer)
+description=Copies certificates from the user certificate store into the system store. Removes the *Network may be monitored* warning.

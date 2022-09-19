@@ -5,6 +5,10 @@ Moves certificates from the user certificate store to the system store. Also rem
 If you use AdGuard, you probably want to use [adguardcert](https://github.com/AdguardTeam/adguardcert) instead.
 
 ## Changelog
+v2.0.1
+* Updated install messages
+* Fixed the release binary. I'd previously accidentally included the entire .git repository in the installer zip.  Whoopsie. Down to 8KB when I had it at 80KB before.
+
 v2.0
 * Changed behavior to copy instead of moving the certificate.
   * The certificate ends up in two locations, one in the User store and one in the System store.  This addresses the Chrome Certificate Transparency problem discussed [here](https://github.com/Magisk-Modules-Repo/movecert/issues/15) and [here](https://github.com/AdguardTeam/AdguardForAndroid/issues/4124#issuecomment-1066078974).  Note that enabling Zygisk and adding Chrome to the DenyList is required for this to work.

@@ -4,8 +4,6 @@ Copies certificates from the user certificate store into the system store. Also 
 
 Note that this is a significant change from the historical use of this module.  By copying, instead of moving, the Certificate Transparency problem for proxying Google Chrome has been solved.  See notes and links in the changelog below for more details on this.
 
-If you use AdGuard, you probably want to use [adguardcert](https://github.com/AdguardTeam/adguardcert) instead.
-
 ## Changelog
 v2.0.1
 * Updated install messages

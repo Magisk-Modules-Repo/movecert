@@ -12,7 +12,7 @@ MODDIR=${0%/*}
 
 # mv -f /data/misc/user/0/cacerts-added/12abc345.0 $MODDIR/system/etc/security/cacerts
 
-mv -f /data/misc/user/0/cacerts-added/* $MODDIR/system/etc/security/cacerts
+cp -f /data/misc/user/0/cacerts-added/* $MODDIR/system/etc/security/cacerts
 chown -R 0:0 $MODDIR/system/etc/security/cacerts
 
 [ "$(getenforce)" = "Enforcing" ] || exit 0

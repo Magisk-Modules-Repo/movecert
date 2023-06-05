@@ -1,4 +1,4 @@
-# **Move Certificates**
+# **Copy Certificates**
 ## Description
 Copies certificates from the user certificate store into the system store. Also removes the *Network may be monitored* warning.
 
